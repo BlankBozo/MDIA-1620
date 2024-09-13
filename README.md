@@ -16,3 +16,8 @@ This is a **GREAT** repository!
 ## One word for how I'm feeling
 
 **EXCITED**
+
+![image of club sandwich](https://cdn.pixabay.com/photo/2018/07/14/21/30/club-sandwich-3538455_1280.jpg)
+
+Donald Wong
+
