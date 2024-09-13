@@ -17,7 +17,7 @@ This is a **GREAT** repository!
 
 **EXCITED**
 
-![image of club sandwich]([![Classic-Club-Sandwich-FT-RECIPE0523-99327c9c87214026b9419b949ee13a9c](https://github.com/user-attachments/assets/7da9108e-bedc-4bdb-8366-4b303fd6ecdf)](https://www.foodandwine.com/thmb/XdxTq3crr7v8zwtVIT9vra4oNno=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Classic-Club-Sandwich-FT-RECIPE0523-99327c9c87214026b9419b949ee13a9c.jpg))
+![image of club sandwich](https://www.foodandwine.com/thmb/XdxTq3crr7v8zwtVIT9vra4oNno=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Classic-Club-Sandwich-FT-RECIPE0523-99327c9c87214026b9419b949ee13a9c.jpg)
 
 Donald Wong
 
