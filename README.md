@@ -4,7 +4,7 @@ A *cool* repository for my MDIA 1620 code.
 ---------
 This is a **GREAT** repository!
 
-- Donald Wong
+Donald Wong
 
 **3 AHA MOMENTS**
 1. I learned how to navigate through files with windows powershell
