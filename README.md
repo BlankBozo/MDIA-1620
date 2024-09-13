@@ -4,6 +4,8 @@ A *cool* repository for my MDIA 1620 code.
 ---------
 This is a **GREAT** repository!
 
+- Donald Wong
+
 **3 AHA MOMENTS**
 1. I learned how to navigate through files with windows powershell
 2. I learned what holding a piece of bread for a long period of time can do to my psyche
@@ -19,5 +21,5 @@ This is a **GREAT** repository!
 
 ![image of club sandwich](https://www.foodandwine.com/thmb/XdxTq3crr7v8zwtVIT9vra4oNno=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Classic-Club-Sandwich-FT-RECIPE0523-99327c9c87214026b9419b949ee13a9c.jpg)
 
-Donald Wong
+
 
