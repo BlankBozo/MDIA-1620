@@ -24,5 +24,5 @@ console.log(`This is ${horseName} and he is a silly lil fella. It costs ${STABLE
 
 let horseNickname = "PDF";
 console.log(horseNickname);
-console.log(`This is ${horseNickname} and this is his silly nickname. He likes our specific stable, which costs ${STABLE_MONTHLY_FEE}`)
-console.log(`If you stay with us for three months,${((STABLE_MONTHLY_FEE * 3 *.1))} will be deducted from your total costs.`)
+console.log(`This is ${horseNickname} and this is his silly nickname. He likes our specific stable, which costs ${STABLE_MONTHLY_FEE}`);
+console.log(`If you stay with us for three months,${((STABLE_MONTHLY_FEE * 3 *.1))} will be deducted from your total costs.`);
