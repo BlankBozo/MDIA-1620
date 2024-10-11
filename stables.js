@@ -34,3 +34,46 @@ if (isHorseInside === true) {
     console.log(horseNickname + "is outside of his stable")
 }
 
+//Lesson 6 CODE
+// Horse =["name", age, isInside, "nickname"]
+let word = "Bobby"
+console.log(word.charAt(0))
+let horseNames = [horseName, "Bonk", "Boopity"];
+let horseAges = [horseAge, 20, 6];
+let horseLocations = [isHorseInside, false, true];
+console.log(horseNames.length);
+console.log(horseNames)
+horseNames.push("Binket");
+console.log(horseNames);
+console.log(horseNames.length);
+console.log(horseLocations[2]);
+console.log("Welome to my stables! There are " + horseNames.length + " horses staying here! Their names are " + 
+    horseNames[0] + "," + horseNames[1] + "," + horseNames[2] + " and " + horseNames[3] +"!!!");
+//console.log(horseAges[0])
+//console.log(horseLocations[2])
+
+console.log(horseAges[2] + horseAges[1])
+if (horseNames[0] === "PinkleDinkyFam") {
+    console.log("hi PinkleDinkyFam");
+}
+if (horseNames[1] === "Bonk") {
+    console.log("hi Bonk");
+}
+if (horseNames[2] === "Boopity") {
+    console.log("hi Boopity");
+}
+if (horseNames[3] === "Binket") {
+    console.log("hi Binket");
+}
+
+if (horseNames.length < 5) {
+    console.log("These stables are the bomb");
+}
+
+if (horseLocations[0]){
+    console.log(horseNames[0] + "," + horseNames[1] + "," + horseNames[2] + " and " + horseNames[3] + 
+        " are chilling in our indoor cool place")
+} else{
+    console.log(horseNames[0] + "," + horseNames[1] + "," + horseNames[2] + " and " + horseNames[3] + 
+    " are not having the best time rn so they be outside in the rain");
+}
