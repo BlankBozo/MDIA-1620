@@ -26,3 +26,11 @@ let horseNickname = "PDF";
 console.log(horseNickname);
 console.log(`This is ${horseNickname} and this is his silly nickname. He likes our specific stable, which costs ${STABLE_MONTHLY_FEE}`);
 console.log(`If you stay with us for three months,${((STABLE_MONTHLY_FEE * 3 *.1))} will be deducted from your total costs.`);
+
+//Lesson 5 Code
+if (isHorseInside === true) {
+    console.log(horseName + "is in his stable")
+} else {
+    console.log(horseNickname + "is outside of his stable")
+}
+
