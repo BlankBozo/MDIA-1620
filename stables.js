@@ -63,16 +63,16 @@ function Horse (name, nickname, age, favoriteSnack, isInside, sillyFeature, appe
         }
 
 //------------------------- First day -------------------------//
-const Horse1 = new Horse("PinkleDinkyFam", "PDF", 80082, "Windex", true, "walks on two legs", "bald");
-const Horse2 = new Horse("Binket", "Bink", 90, "Tylenol", true, "can juggle three balls", "wearing sunglasses");
-const Horse3 = new Horse("Bonk", "Bok", 20, "Tide", true, "can cook better than Gordon Ramsay", "wearing a chef hat");
+const PDF = new Horse("PinkleDinkyFam", "PDF", 80082, "Windex", true, "walks on two legs", "bald");
+const Bink = new Horse("Binket", "Bink", 90, "Tylenol", true, "can juggle three balls", "wearing sunglasses");
+const Bok = new Horse("Bonk", "Bok", 20, "Tide", true, "can cook better than Gordon Ramsay", "wearing a chef hat");
 
 
-horses.push(Horse1)
-horses.push(Horse2)
-horses.push(Horse3)
+horses.push(PDF)
+horses.push(Bink)
+horses.push(Bok)
 
-let Horse4 = {
+let Ding = {
     name: "Dingus",
     nickname: "Ding",
     age: 29,
@@ -90,7 +90,7 @@ let Horse4 = {
         console.log `${this.name} likes to be ${appearenceFeature} while drunk!`;
     },
   };
-  horses.push(Horse4);
+  horses.push(Ding);
 
 
 
@@ -98,14 +98,73 @@ let Horse4 = {
 
 function horseHangry(whenHorseHangry){
   whenHorseHangry.isHorseHangry = true;
-  Horse1.isHorseHangry = false;
-  Horse2.isHorseHangry = true;
-  Horse3.isHorseHangry = true;
+  PDF.isHorseHangry = false;
+  Bink.isHorseHangry = true;
+  Bok.isHorseHangry = true;
 }
 
 horses.map(horseHangry); //
+
+console.log(horses);
 //------------------------- Stable roster -------------------------//
-console.log (horses);
+// [
+//     Horse {
+//       name: 'PinkleDinkyFam',
+//       nickname: 'PDF',
+//       age: 80082,
+//       favoriteSnack: 'Windex',
+//       isInside: true,
+//       sillyFeature: 'walks on two legs',
+//       appearenceFeature: 'bald',
+//       monthlyRent: 1492,
+//       lateFee: 420,
+//       intro: [Function: intro],
+//       drunkActivities: [Function (anonymous)],
+//       isHorseHangry: false
+//     },
+//     Horse {
+//       name: 'Binket',
+//       nickname: 'Bink',
+//       age: 90,
+//       favoriteSnack: 'Tylenol',
+//       isInside: true,
+//       sillyFeature: 'can juggle three balls',
+//       appearenceFeature: 'wearing sunglasses',
+//       monthlyRent: 1492,
+//       lateFee: 420,
+//       intro: [Function: intro],
+//       drunkActivities: [Function (anonymous)],
+//       isHorseHangry: true
+//     },
+//     Horse {
+//       name: 'Bonk',
+//       nickname: 'Bok',
+//       age: 20,
+//       favoriteSnack: 'Tide',
+//       isInside: true,
+//       sillyFeature: 'can cook better than Gordon Ramsay',
+//       appearenceFeature: 'wearing a chef hat',
+//       monthlyRent: 1492,
+//       lateFee: 420,
+//       intro: [Function: intro],
+//       drunkActivities: [Function (anonymous)],
+//       isHorseHangry: true
+//     },
+//     {
+//       name: 'Dingus',
+//       nickname: 'Ding',
+//       age: 29,
+//       favoriteSnack: 'Pickles',
+//       isInside: false,
+//       monthlyRent: 1492,
+//       lateFee: 420,
+//       sillyFeature: 'acting like a beyblade',
+//       appearenceFeature: 'wearing a tuxedo',
+//       introduce: [Function: introduce],
+//       drunkActivities: [Function: drunkActivities],
+//       isHorseHangry: true
+//     }
+//   ]
 //---------------------- Growing business ----------------------//
 
 emptyStalls -= horses.length;
