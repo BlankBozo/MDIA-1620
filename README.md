@@ -39,3 +39,18 @@ This is a **GREAT** repository!
 
 *Intrigued*
 
+## 3 CONFUSING THINGS
+
+1. I still struggle with pushing and pulling code, but I am slowly getting a grasp on it.
+2. I am not the most well versed on arrays.
+3. I still stuggle with adding a commit update to my code.
+
+**Three solid grasps**
+
+1. I have a ok understanding with console.logs
+2. I understand how to make let structures
+3. I can use if else statements.
+
+How it feels knowing 0 is the new 1 for javascript
+https://tenor.com/zbNkZ4lqHj.gif
+
